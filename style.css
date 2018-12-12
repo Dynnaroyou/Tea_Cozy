@@ -1,0 +1,215 @@
+html{
+   background-color: black;
+   font-size: 22px;
+}
+body {
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+}
+/*Top Header*/
+.header{
+   background-color:black;
+   border-bottom: 1px solid white;
+   width: 100%;
+   z-index: 1;
+   height: 80px;
+   display:flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.header a{
+   display: flex;
+   align-items: center;
+   float: right;
+   margin: 10px;
+   text-align: right;
+   font-size: 22px;
+   font-family: Helvetica;
+   color: seashell;
+
+}
+nav{
+   flex-grow: 1;
+   text-align: right;
+}
+nav span{
+   display: inline-block;
+   padding: 20px 10px;
+
+}
+/*Hero Image and Title*/
+.Mission{
+   width: 100%;
+   background-color: black;
+}
+div.Hero{
+   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+   height: 700px;
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   align-items:  center;
+   justify-content: center;
+
+   display: block;
+   padding-top: 100px;
+   background-repeat: no-repeat;
+   background-position: center;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+/*Middle Section*/
+.Month-container{
+   height: 700px;
+   width: 1000px;
+   margin: auto;
+   padding-top: 70px;
+   align-content: flex-start;
+   justify-content: space-around;
+}
+.pictures-items{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding: 5px;
+   align-content: space-around;
+}
+/*-----Spiced Rum Tea*/
+.Rum{
+}
+.Rum img{
+   height: 200px;
+   width: 300px;
+   margin: 10px;
+   margin-top: 10px;
+   align-self: flex-start;
+}
+.Rum span{
+   text-align: center;
+   display: block;
+   padding: 5px;
+   align-items: center;
+}
+/*-----Fall Berry Blitz Tea*/
+.Fall{
+}
+.Fall img{
+   height: 200px;
+   width: 300px;
+   margin: 10px;
+   margin-top: 10px;
+   align-self: flex-start;
+}
+.Fall span{
+   text-align: center;
+   margin: 0px;
+   padding: 5px;
+   display: block;
+   align-items: center;
+}
+/*-----Seasonal Donuts*/
+.Donut{
+}
+.Donut img{
+   height: 200px;
+   width: 300px;
+   margin: 10px;
+   align-self: flex-start;
+}
+.Donut span{
+   text-align: center;
+   margin: 0px;
+   display: block;
+   padding: 5px;
+   align-items: center;
+}
+/*-----Myrtle Ave Tea*/
+.Myrtle{
+}
+.Myrtle img{
+   height: 200px;
+   width: 300px;
+   margin: 10px;
+   align-self: flex-end;
+}
+.Myrtle span{
+   text-align: center;
+   margin: 0px;
+   padding: 5px;
+   display: block;
+   align-items: center;
+}
+/*-----Bedford Bizarre Tea*/
+.Bedford{
+}
+.Bedford img{
+   height: 200px;
+   width: 300px;
+   margin: 10px;
+   align-self: flex-end;
+}
+.Bedford span{
+   text-align: center;
+   margin: 0px;
+   padding: 5px;
+   display: block;
+   align-items: center;
+}
+/*Locations section*/
+.Locations{
+   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+   display: flex;
+   justify-content: center;
+   background-repeat: no-repeat;
+   background-position: center;
+
+   margin-top: 40px;
+   height:500px;
+   align-content: center;
+}
+.Locations h2{
+   margin: 30px;
+   display: flex;
+   font-size: 40px;
+   align-items: center;
+}
+.Group {
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+   align-items: center;
+}
+.section {
+   padding: 20px;
+   margin: 10px;
+   margin-right: 15px;
+   background-color: black;
+   height:225px;
+
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: center;
+
+}
+/*Footer*/
+.Footer{
+   margin-top: 45px;
+   font-size: 2em;
+   padding: 10px;
+   display: block;
+   border-top: 2px solid white;
+}
+.Footer span{
+   font-size: 8px;
+   padding: 10px;
+}
+.Footer p{
+   display: flex;
+   justify-content: flex-start;
+}
